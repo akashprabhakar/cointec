@@ -106,7 +106,7 @@
 
 	$m->isHTML(true);
 
-	$m->Subject = 'Cointec Form Details And Scores';
+	$m->Subject = 'Cointec Form Details and Scores';
 	$m->Body = '<p><h3>Dear '.$username. ',</h3> <p>Following are the scores for the survey taken on the cointec website.</p> <h4>Neurological signs and symptoms -><b style="color:#f00">'.$subtotal1.'</b>/81</h4>';
 	$m->Body .= '<h4>Cardiovascular signs and symptoms -><b style="color:#f00">'.$subtotal2.'</b>/36</h4>';
 	$m->Body .= '<h4>Muscular signs and symptoms -><b style="color:#f00">'.$subtotal3.'</b>/45</h4>';
